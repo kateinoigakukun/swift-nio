@@ -95,7 +95,7 @@ jobs:
   wasm-sdk:
     name: WebAssembly Swift SDK
     # Workaround https://github.com/nektos/act/issues/1875
-    uses: apple/swift-nio/.github/workflows/wasm_sdk.yml@main
+    uses: kateinoigakukun/swift-nio/.github/workflows/wasm_sdk.yml@katei/add-pr-wasm-workflow-test
 
   release-builds:
     name: Release builds
